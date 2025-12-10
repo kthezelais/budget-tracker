@@ -1,5 +1,16 @@
 ### Global
+.vscode/
 archives/
+.idea/
+*.iml
+
+### Global secrets
+*.jks
+*.keystore
+*.p12
+*.p8
+*.key
+*.mobileprovision
 
 ### Backend
 backend/__pycache__
@@ -17,6 +28,7 @@ frontend/.expo/
 frontend/dist/
 frontend/web-build/
 frontend/expo-env.d.ts
+frontend/android/app/src/main/res
 
 # Native
 frontend/.kotlin/
@@ -48,3 +60,6 @@ frontend/*.tsbuildinfo
 # generated native folders
 /ios
 /android
+
+# logs
+bugreport-sdk*.zip

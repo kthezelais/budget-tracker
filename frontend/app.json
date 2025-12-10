@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Budget Tracker",
+    "slug": "budget-tracker",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4CAF50"
+    },
+
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.kthezelais.budgettracker"
+    },
+
+    "android": {
+      "package": "com.kthezelais.budgettracker",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#4CAF50"
+      },
+      "edgeToEdgeEnabled": true,
+      "softwareKeyboardLayoutMode": "pan"
+    },
+
+    "web": {
+      "favicon": "./assets/favicon.ico"
+    },
+
+    "plugins": [
+      "expo-localization"
+    ],
+
+    "extra": {
+      "eas": {
+        "projectId": "385379b6-6efa-4c93-a472-4637424cec55"
+      }
+    }
+  }
+}
